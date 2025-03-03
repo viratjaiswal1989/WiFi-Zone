@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WiFi Recharge Portal</title>
+    <style>
+        body {
+            background-color: #FFA500; /* Light sky blue color */
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .btn {
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://cdn-icons-png.flaticon.com/512/725/725643.png" alt="Wi-Fi Symbol">
+        <h1>WiFi Recharge Portal</h1>
+        <p>Select a plan to continue:</p>
+        <button class="btn" onclick="window.location.href='https://paylink1.com'">₹10 for 1 Day (10GB)</button><br>
+        <button class="btn" onclick="window.location.href='https://paylink2.com'">₹20 for 2 Days (20GB)</button><br>
+        <button class="btn" onclick="window.location.href='https://paylink3.com'">₹50 for 7 Days (50GB)</button><br>
+        <button class="btn" onclick="window.location.href='https://paylink4.com'">₹100 for 30 Days (300GB)</button>
+    </div>
+</body>
+</html>
